@@ -1,0 +1,30 @@
+{
+  "patient_name": "Shrey Agrawal",
+  "report_type": "CBC",
+  "tests": [
+    {
+      "name": "Hemoglobin",
+      "value": 14.5,
+      "unit": "g/dL",
+      "status": "Normal"
+    },
+    {
+      "name": "WBC Count",
+      "value": 10570,
+      "unit": "/cmm",
+      "status": "High"
+    },
+    {
+      "name": "Triglyceride",
+      "value": 168,
+      "unit": "mg/dL",
+      "status": "High"
+    },
+    {
+      "name": "Vitamin D",
+      "value": 12,
+      "unit": "ng/mL",
+      "status": "Low"
+    }
+  ]
+}
