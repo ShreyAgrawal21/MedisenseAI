@@ -10,6 +10,7 @@ from app.api.v1.endpoints import (
     comparison,
     analysis,
     timeline,
+    profile,
 )
 
 api_router = APIRouter()
@@ -31,3 +32,4 @@ api_router.include_router(
     prefix="/analysis/timeline",
     tags=["Timeline"],
 )
+api_router.include_router(profile.router)
